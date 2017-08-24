@@ -1,0 +1,17 @@
+@import '../../assets/_colors.scss';
+.student__list{
+    width: 85%;
+}
+.ui.avatar.image.student__avatar{
+    width: 8em;
+    height: 8em;
+}
+.ng-dirty.ng-invalid.ng-touched{
+    background-color: #fff6f6;
+    border-color: #e0b4b4;
+    color: #9f3a38;
+    box-shadow: none;
+}
+.elm__block{
+    display: block;
+}

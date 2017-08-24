@@ -1,0 +1,38 @@
+{
+    "data" : {
+        "studentsData" : [
+            {
+                "fname" : "Jhon",
+                "lname" : "Max",
+                "school" : "delhi",
+                "gender" : "male",
+                "uid" : "M1015620",
+                "avt" : "mark.png"
+            },
+            {
+                "fname" : "Beverly",
+                "lname" : "Beneth",
+                "school" : "inventure",
+                "gender" : "female",
+                "uid" : "M1015876",
+                "avt" : "molly.png"
+            },
+            {
+                "fname" : "Kate",
+                "lname" : "Winslet",
+                "school" : "inventure",
+                "gender" : "female",
+                "uid" : "M1015765",
+                "avt" : "lindsay.png"
+            },
+            {
+                "fname" : "Gloria",
+                "lname" : "Stuart",
+                "school" : "greenwood",
+                "gender" : "female",
+                "uid" : "M1015856",
+                "avt" : "lena.png"
+            }
+        ]
+    }
+}

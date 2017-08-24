@@ -1,16 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { routes } from './app.router';
+import { Http,HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { StudentListComponent } from './student-list/student-list.component';
+import { StudentEditComponent } from './student-edit/student-edit.component';
+import { StudentService } from "./services/student.service";
+import { FormsModule,ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StudentListComponent,
+    StudentEditComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routes,
+    HttpModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    StudentService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
